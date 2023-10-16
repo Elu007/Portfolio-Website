@@ -44,22 +44,22 @@ const Navbar = () => {
           <div className="flex-10">
             <ul className="flex gap-8 mr-16 text-[18px]">
               <Link to="/">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Home</li>
+                <li className="hover:text-fuchsia-300 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Home</li>
               </Link>
               <Link to="/about">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">About</li>
+                <li className="hover:text-fuchsia-300 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">About</li>
               </Link>
               <Link to="/skills">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Skills</li>
+                <li className="hover:text-fuchsia-300 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Skills</li>
               </Link>
               <Link to="/projects">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Projects</li>
+                <li className="hover:text-fuchsia-300 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Projects</li>
               </Link>
               <Link to="/experience">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Experience</li>
+                <li className="hover:text-fuchsia-300 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Experience</li>
               </Link>
               <Link to="/contact">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Contact</li>
+                <li className="hover:text-fuchsia-300 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Contact</li>
               </Link>
             </ul>
           </div>

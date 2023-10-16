@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -21,6 +22,7 @@ function App() {
         <Route path='/experience' element={<Experience/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
