@@ -11,6 +11,10 @@ const Home = () => {
     height: '100vh'
   };
 
+  const shadowStyle = {
+    filter: 'drop-shadow(10px 10px 25px white)'
+  };
+
   const customCSS = `
     @keyframes colorChange {
       0% {
@@ -62,6 +66,7 @@ const Home = () => {
             src="/images/profile.png"
             alt="MyImage"
             className="h-64 w-64 md:h-64 md:w-64 rounded-full border-4 border-blue-500"
+            style={shadowStyle}
           />
         </div>
         <div className="text-center">
