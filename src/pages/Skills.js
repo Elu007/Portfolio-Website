@@ -28,7 +28,6 @@ const Skills = () => {
   return (
     <>
       <div>
-
         <h2 className='text-center text-3xl underline m-4'>Skills</h2>
         <div className='flex flex-wrap justify-center items-center space-x-2 bg-gray-700 p-4 md:p-8'>
           <div className='border-2 border-indigo-600 p-6 rounded-md mb-4 md:mb-4' style={shadowStyleHTML}>
@@ -67,28 +66,36 @@ const Skills = () => {
             <img src="/icons/tailwind.svg" alt="work in progress" className='h-28 w-28 mx-auto' />
             <p className='text-center'>Tailwind CSS</p>
           </div>
+          <div className='border-2 border-indigo-600 p-6 rounded-md mb-4 md:mb-4' style={shadowStyleTailwind}>
+            <img src="/icons/bootstrap.svg" alt="work in progress" className='h-28 w-28 mx-auto' />
+            <p className='text-center'>BootStrap 5</p>
+          </div>
+          <div className='border-2 border-indigo-600 p-6 rounded-md mb-4 md:mb-4' style={shadowStyleTailwind}>
+            <img src="/icons/sql.svg" alt="work in progress" className='h-28 w-28 mx-auto' />
+            <p className='text-center'>SQL</p>
+          </div>
           <div className='border-2 border-indigo-600 p-6 rounded-md mb-4 md:mb-4' style={shadowStyleGit}>
             <img src="/icons/github.svg" alt="work in progress" className='h-28 w-28 mx-auto' />
             <p className='text-center'>GitHub</p>
           </div>
         </div>
-          <div>
-            <h2 className='text-center text-3xl underline m-4'>Interest</h2>
-            <div className='flex flex-wrap justify-center md:space-x-44 bg-gray-700 p-4 md:p-8'>
-              <div className='border-2 border-white p-6 rounded-md mb-4 md:mb-4'>
-                <img src="/icons/blockchain.svg" alt="blockchain" className='h-28 w-28 mx-auto' />
-                <p className='text-center pt-2'>Blockchain</p>
-              </div>
-              <div className='border-2 border-white p-6 rounded-md mb-4 md:mb-4'>
-                <img src="/icons/finance.svg" alt="finance" className='h-28 w-28 mx-auto' />
-                <p className='text-center pt-2'>Finance</p>
-              </div>
-              <div className='border-2 border-white p-6 rounded-md mb-4 md:mb-4'>
-                <img src="/icons/article.svg" alt="article" className='h-28 w-28 mx-auto' />
-                <p className='text-center pt-2'>Article Writing</p>
-              </div>
+        <div>
+          <h2 className='text-center text-3xl underline m-4'>Interest</h2>
+          <div className='flex flex-wrap justify-center md:space-x-44 bg-gray-700 p-4 md:p-8'>
+            <div className='border-2 border-white p-6 rounded-md mb-4 md:mb-4'>
+              <img src="/icons/blockchain.svg" alt="blockchain" className='h-28 w-28 mx-auto' />
+              <p className='text-center pt-2'>Blockchain</p>
+            </div>
+            <div className='border-2 border-white p-6 rounded-md mb-4 md:mb-4'>
+              <img src="/icons/finance.svg" alt="finance" className='h-28 w-28 mx-auto' />
+              <p className='text-center pt-2'>Finance</p>
+            </div>
+            <div className='border-2 border-white p-6 rounded-md mb-4 md:mb-4'>
+              <img src="/icons/article.svg" alt="article" className='h-28 w-28 mx-auto' />
+              <p className='text-center pt-2'>Article Writing</p>
             </div>
           </div>
+        </div>
       </div>
     </>
   )
