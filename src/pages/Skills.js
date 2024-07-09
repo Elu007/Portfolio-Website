@@ -78,6 +78,10 @@ const Skills = () => {
             <img src="/icons/github.svg" alt="work in progress" className='h-28 w-28 mx-auto' />
             <p className='text-center'>GitHub</p>
           </div>
+          <div className='border-2 border-indigo-600 p-6 rounded-md mb-4 md:mb-4' style={shadowStyleGit}>
+            <img src="/icons/postman.svg" alt="work in progress" className='h-28 w-28 mx-auto' />
+            <p className='text-center'>Postman</p>
+          </div>
         </div>
         <div>
           <h2 className='text-center text-3xl underline m-4'>Interest</h2>
