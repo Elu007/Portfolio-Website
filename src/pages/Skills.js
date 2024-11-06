@@ -19,6 +19,9 @@ const Skills = () => {
   const shadowStyleJava = {
     filter: 'drop-shadow( 0px 0px 25px #991b1b)'
   };
+  const shadowStyleLinux = {
+    filter: 'drop-shadow( 0px 0px 25px #93c5fd)'
+  };
   const shadowStyleTailwind = {
     filter: 'drop-shadow( 0px 0px 20px #93c5fd)'
   };
@@ -61,6 +64,10 @@ const Skills = () => {
           <div className='border-2 border-indigo-600 p-6 rounded-md mb-4 md:mb-4' style={shadowStyleJava}>
             <img src="/icons/java.svg" alt="work in progress" className='h-28 w-28 mx-auto' />
             <p className='text-center'>Java</p>
+          </div>
+          <div className='border-2 border-indigo-600 p-6 rounded-md mb-4 md:mb-4' style={shadowStyleLinux}>
+            <img src="/icons/linux.svg" alt="work in progress" className='h-28 w-28 mx-auto' />
+            <p className='text-center'>Linux</p>
           </div>
           <div className='border-2 border-indigo-600 p-6 rounded-md mb-4 md:mb-4' style={shadowStyleTailwind}>
             <img src="/icons/tailwind.svg" alt="work in progress" className='h-28 w-28 mx-auto' />

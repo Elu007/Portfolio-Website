@@ -1,27 +1,31 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   const shadowStyle = {
     filter: 'drop-shadow(5px 5px 25px white)'
   };
 
-
   return (
     <>
       <div className='mt-10 mb-3 mx-10 bg-gray-800'>
         <div className='flex items-center justify-around my-5 p-3'>
           <h1 className='text-3xl underline'>About Me</h1>
-          <img className='ml-4 h-32 w-32 border-2 border-blue-500 rounded-full' src="/images/profile2.png" style={shadowStyle} alt="profile" />
+          <img
+            className='ml-4 mt-4 h-32 w-32 border-2 border-blue-500 rounded-full'
+            src="/images/profile2.png"
+            style={shadowStyle}
+            alt="profile"
+          />
         </div>
         <div className="w-full p-10">
           <p className="text-xl mb-5">
-            I am Elaf, and I enrolled in Ramkrishna Mahato Government Engineering College in Purulia in 2020 to pursue a B.Tech degree in Electronics and Communication Engineering. I began my adventure during the Covid era as a tech geek who was very interested in learning about the newest advancements in technology and how they were used. In my second year of college,  I started writing Java code and developing projects on web development. I can now declare that I am a novice full stack developer as a result of that.
+            Hello! I’m Elaf, currently working as an Assistant System Engineer-Trainee at Tata Consultancy Services, located in Delhi. I graduated with a B.Tech in Electronics and Communication Engineering from Ramkrishna Mahato Government Engineering College in 2024.
           </p>
           <p className="text-xl mb-5">
-            I joined the Robotics and Innovation Centre at my institution to learn more about the newest technology and to hone the skills I already possess. Around this time, I started writing technical content for Geeks For Geeks, which has been really helpful to me in my study and in building a thorough understanding of code and technologies. I attempt to assist novice developers and aid them on their journey by creating technical articles.
+            My journey in tech began as a curious learner during my college years, where I explored web development and programming. Since then, I’ve grown into a novice full-stack developer, with skills across various technologies. During college, I was also part of the Robotics and Innovation Centre, further expanding my knowledge and practical skills.
           </p>
           <p className="text-xl mb-5">
-            With everything, it aided in both my social and personal development.
+            For more about my skills and professional experience, please visit the dedicated sections on this website.
           </p>
         </div>
       </div>
@@ -38,7 +42,7 @@ const About = () => {
         </button>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

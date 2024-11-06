@@ -5,6 +5,14 @@ const Experience = () => {
   return (
     <div className='bg-gray-700 p-4'>
       <h2 className='text-center text-3xl underline mb-2'>Experience</h2>
+      {/* Current Position */}
+      <div className='flex flex-col items-center text-center space-y-4 mt-4'>
+        <img src="icons/tcs.png" alt="Tata Consultancy Services" className='border-2 rounded border-white h-52 p-2 mx-auto' />
+        <p className='text-xl'>
+          Currently, I’m working as an <b>Assistant System Engineer-Trainee</b> at <b>Tata Consultancy Services</b> in Delhi. Here, I’m excited to learn new technologies and contribute to diverse projects.
+        </p>
+      </div>
+
       <h2 className='text-center text-sky-500 text-3xl mt-4 underline'>Internships</h2>
 
       {/* First Internship */}
