@@ -11,7 +11,7 @@ const Projects = () => {
         <ProjectCard projectName="CrypSEA" imageSrc="/images/crypsea.jpg" description="This is Crypto Price traking website with Live price updates, Graphs, News, Blogs" demoLink="https://cryp-sea-kappa.vercel.app" sourceLink="https://github.com/Elu007/CrypSEA" />
 
         {/* GenZ Project */}
-        <ProjectCard projectName="GenZ Store" imageSrc="/images/genz.jpg" description=" GenZ ecommerce website, favourite shopping things in one spot." demoLink="https://gen-z-store.vercel.app" sourceLink="https://github.com/Elu007/GenZ-Store" />
+        <ProjectCard2 projectName="GenZ Store" imageSrc="/images/genz.jpg" description=" GenZ ecommerce website, favourite shopping things in one spot." sourceLink="https://github.com/Elu007/GenZ-Store" />
 
         {/* TextUtils Next app */}
         <ProjectCard projectName="TextUtils" imageSrc="/images/textutils.jpg" description="Text utility app built with NextJs powered by AI tools." demoLink="https://text-utils-next.vercel.app" sourceLink="https://github.com/Elu007/TextUtils-Next" />
